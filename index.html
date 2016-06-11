@@ -12,9 +12,58 @@
     <div class=container>
       <h1>What city should you visit?</h1>
       <h3>Take our quiz to find out!</h3>
-      <form city-survey>
-        
+      <form id="city-survey">
+        <h4>First thing's first - what's your name?</h4>
+        <div class="form-group">
+          <input id="name" class="form-control" type="text">
+        </div>
+        <h4>Your choice of protein:</h4>
+        <select class="form-control" id="protein">
+          <option value="1">Legumes</option>
+          <option value="10">Seafood</option>
+          <option value="20">Tofu</option>
+          <option value="30">Carbs straight up</option>
+          <option value="40">Meat straight up</option>
+        </select>
+        <h4>What you remember most about past vacations:</h4>
+        <select class="form-control" id="memory">
+          <option value="1">The sights</option>
+          <option value="10">The food</option>
+          <option value="20">The shopping</option>
+          <option value="30">The art & music</option>
+          <option value="40">The people</option>
+        </select>
+        <h4>How you enter an altered state of mind:</h4>
+        <select class="form-control" id="altmind">
+          <option value="1">I'm always in an altered state of mind!</option>
+          <option value="10">Alcohol</option>
+          <option value="20">Speed</option>
+          <option value="30">Weed</option>
+          <option value="40">Acid</option>
+        </select>
+        <h4>Your preferred climate:</h4>
+        <select class="form-control" id="climate">
+          <option value="1">Dry & heated</option>
+          <option value="10">Muggy AF</option>
+          <option value="20">Climate-controlled</option>
+          <option value="30">Mostly cool & airy</option>
+          <option value="40">That summer SoCal type of feel</option>
+        </select>
+        <h4>Pick a Disney song:</h4>
+        <select class="form-control" id="disney">
+          <option value="1">A Whole New World</option>
+          <option value="10">The Circle of Life</option>
+          <option value="20">Reflection</option>
+          <option value="30">Tale as Old as Time</option>
+          <option value="40">You've got a friend in me</option>
+        </select>
+
+        <button type="submit" class="btn">Where should I go?</button>
       </form>
+
+      <div id="city-result">
+        <p><span class="name"></span> - We recommend you book your trip to <span class="city"></span>, <span class="asap"></span>!!</p>
+      </div>
 
 
     </div> <!-- closes container -->
