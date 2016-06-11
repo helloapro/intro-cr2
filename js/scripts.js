@@ -11,26 +11,26 @@ $(function() {
     var city;
     var asap;
 
-    if ((sum/5) <= 10.8) {
+    if ( ((sum/5) <= 2.6) && (climate === 1) ) {
       city = "Cairo";
-    } else if ((sum/5) <= 10.9) {
-      city = "Chile";
-    } else if ((sum/5) <= 20.9) {
+    } else if ( ((sum/5) <= 3.2) && (climate === 2) ) {
+      city = "Ecuador";
+    } else if ( (((sum/5) <= 3.8) && (climate === 3)) || (protein === 3) ) {
       city = "Shanghai";
-    } else if ((sum/5) <= 30.9) {
-      city = "Berlin";
+    } else if ( ((sum/5) <= 4.4) && (disney !== 5) ) {
+      city = "Copenhagen";
     } else {
-      city = "Australia";
+      city = "Sydney";
     }
 
     if (city === "Cairo") {
       asap = "في أقرب وقت ممكن";
-    } else if (city === "Chile") {
+    } else if (city === "Ecuador") {
       asap = "con rapidez";
-    } else if (city === "Berlin") {
-      asap = "mach schnell";
     } else if (city === "Shanghai") {
       asap = "尽快地";
+    } else if (city === "Copenhagen") {
+      asap = "så hurtigt som muligt";
     } else {
       asap = "flat chat";
     }
