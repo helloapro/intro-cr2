@@ -17,7 +17,7 @@ $(function() {
       city = "Ecuador";
     } else if ( (((sum/5) <= 3.8) && (climate === 3)) || (protein === 3) ) {
       city = "Shanghai";
-    } else if ( ((sum/5) <= 4.4) && (disney !== 5) ) {
+    } else if ( ((sum/5) <= 4.4) && ((disney !== 5) || (disney !== 3)) ) {
       city = "Copenhagen";
     } else {
       city = "Sydney";
