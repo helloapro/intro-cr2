@@ -22,6 +22,8 @@ _introCodeReview2 [Second Intro to Programming (Evening) code review]_
 ## Known Bugs
 _More stylization can be made. Most focus was put on functionality. Haven't tested the survey enough to see if outcomes are the most optimal or make the most sense._
 
+_Can't get images to toggle how I'd like by removing one picture in favor of the other if the user wants to input new answers without refreshing the page._
+
 ## Support and contact details
 _You can email me at helloaprilpeng@gmail.com._
 

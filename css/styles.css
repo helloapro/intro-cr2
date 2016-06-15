@@ -1,4 +1,18 @@
+#city-survey {
+  width: 75%;
+}
+
 #city-result {
   display: none;
   margin-top: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+#cairo-img, #ecuador-img, #shanghai-img, #copenhagen-img, #sydney-img {
+  background-position: center;
+  max-width: 100%;
+  display: none;
 }
