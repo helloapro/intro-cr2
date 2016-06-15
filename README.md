@@ -1,13 +1,13 @@
- ##README introCodeReview2
+## README introCodeReview2
 _The purpose of this is to showcase what I've learned with JavaScript. I'm able to make forms in HTML and call upon functions in jQuery that interact with user inputs. This particular form asks my user to answer a few multiple choice questions in order to determine what city they should visit next. I have five questions as well as five different cities they might get from the survey._
 
- ##Author
+## Author
 _April Peng_
 
- ##Project Title & Description
+## Project Title & Description
 _introCodeReview2 [Second Intro to Programming (Evening) code review]_
 
-  ##Setup/Installation Requirements
+ ## Setup/Installation Requirements
 - _First you create a directory_
 - _Create folders within the directory to house your styling, images, and javascript_
 - _Download bootstrap.css and the latest uncompressed jquery files from the internet_
@@ -19,16 +19,16 @@ _introCodeReview2 [Second Intro to Programming (Evening) code review]_
 - _Make sure you reference all your project links and images appropriately_
 - _Commit your changes regularly_
 
- ##Known Bugs
- _More stylization can be made. Most focus was put on functionality. Haven't tested the survey enough to see if outcomes are the most optimal or make the most sense._
+## Known Bugs
+_More stylization can be made. Most focus was put on functionality. Haven't tested the survey enough to see if outcomes are the most optimal or make the most sense._
 
- ##Support and contact details
- _You can email me at helloaprilpeng@gmail.com._
+## Support and contact details
+_You can email me at helloaprilpeng@gmail.com._
 
- ##Technologies used
+## Technologies used
 
- _Markdown, Atom, Github, Terminal, Chrome browser, bootstrap.css, scripts.js_
+_Markdown, Atom, Github, Terminal, Chrome browser, bootstrap.css, scripts.js_
 
- ##Link to project
+## Link to project
 
 _http://helloapro.github.io/introCodeReview2_
